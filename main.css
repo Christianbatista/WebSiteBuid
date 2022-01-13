@@ -1,0 +1,183 @@
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+
+body {	background-color:#ffffff;
+		background-attachment:fixed;
+		background-color: linear-gradient(to bottom, #FFFFFF, #CAC9C6);
+		background-image:url(Media/128-174.jpg);background-repeat:repeat;
+		font-family: Helvetica, Arial, Verdana, sans-serif;
+}
+
+main {padding: 0 3em 3em 3em;
+	  display: block;
+}
+
+
+
+/* Media, Video, audio, image section starts*/
+
+.video-container {	width:100%;
+					height: auto;
+					position: relative;
+}
+
+ul {margin-top:0;
+list-style-image: URL(Media/blink_list.png);
+}
+
+figure {float: left;
+		margin:0;	
+}
+
+img {padding: 0.5em;
+	 padding-top:0;
+	 padding-bottom:0.8em;
+}
+
+audio {	float: right;
+		padding-top: 12px;
+}
+/* Media, Video, audio, image section starts*/
+
+
+
+
+#wrapper {	margin-left: auto; 
+			margin-right: auto;
+			width: 70%;
+			color: #000000;
+			min-width: 420px;
+			max-width: 1280px;
+			font-size:1em;
+}
+header h1 {	color: rgb(40, 64, 57);
+			padding-top: 15px;
+			text-align: center;
+			font-size: 2em;
+			margin-bottom:0;
+			margin-top:0;
+}
+
+h2 {padding-top: 15px;
+	text-align: center;
+}
+
+h4 {margin-bottom: 15px;
+	text-align:center;
+	font-size: 1.01em;}
+
+/*home page Div box in skills section starts*/
+.container .box{ 	width: 800px;
+					margin:0 auto;
+}
+
+.container .box-row{display:table-row
+}
+
+.container .box .box-row .box-cell{ display: table-cell;
+									width:25%;
+									padding: 0px;
+									font-family:Helvetica, Arial, Verdana, sans-serif;
+}
+/*home page Div box in skills section ends*/
+
+
+
+/*books table section starts*/
+.table { margin: auto; 
+        border: 5px solid #424242; 
+		width: 600px; 
+		border-spacing: 0em;
+}
+.td, .th { padding: 5px; 
+         font-family: Arial, sans-serif,Verdana;
+         border-style: none;
+}
+
+tr:nth-of-type(even) {background-color:#D0D3DE}
+
+table a:link {color:blue;
+}
+
+table a:visited {color:rgb(214, 27, 24);
+}
+
+table a:hover {color:rgb(92, 153, 135) ;
+}
+
+caption {padding-bottom: 8px; 
+}
+/*books table section ends*/
+
+
+
+/*Navigation section starts*/	
+
+nav { 	margin-top: 10px;
+		background-image:url(media/128-127.jpg);
+		background-repeat:repeat-x;
+		color: #FFFFFF;
+		list-style:none;
+		font-size: 20px;
+		font-family: Calibri, Georgia, sans-serif;
+		height:22px;
+		text-align: center;
+		border-radius: 15px;
+}
+
+nav a {text-decoration: none;
+	   color: #FFFFFF;
+}
+nav a:visited {color:rgb(92, 153, 135);
+}
+
+label {display: block; 
+	   margin-top: 20px; 
+}
+input { display: block;
+        margin-bottom: 20px; 
+}
+
+small a:link {color:blue;
+}
+
+small a:visited {color:rgb(214, 27, 24);
+}
+
+small a:hover {color:rgb(92, 153, 135) ;
+}
+/*Navigation section ends*/
+
+
+
+blockquote {background-image:none;
+}
+
+.parent-div {width:1280px;
+			 margin:0 auto;
+}
+
+
+.child-div { width: 300px;
+			 margin: 0 auto;
+}
+
+
+.download {	margin-left: auto; 
+			margin-right: auto;
+			width: 20%;
+			min-width: 420px;
+			max-width: 1280px;
+}
+
+			
+footer h5 {	background-image:url(media/128-127.jpg);background-repeat:repeat-x;
+			text-align: center;
+			font-style: italic;
+			color: #FFFFFF;
+			border-radius: 17px;
+			font-family: Calibri,Georgia, sans-serif;
+}
